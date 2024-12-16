@@ -9,7 +9,7 @@
 📫 Как связаться со мной: [![LinkedIn Badge](https://img.shields.io/badge/-@mgarkusha-blue?style=flat&logo=LinkedIn&logoColor=white)](https://www.linkedin.com/in/mgarkusha/) 
 
 ---
-### 🤝 Социальные сети:
+### ✉️ Социальные сети:
 
   <div id="badges">
     <a href="https://www.linkedin.com/in/mgarkusha/" target="_blank">
@@ -20,4 +20,3 @@
     </a>
   </div>
 
----
