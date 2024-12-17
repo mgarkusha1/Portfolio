@@ -1,0 +1,1510 @@
+{
+	"info": {
+		"_postman_id": "a0cb3ba0-cb13-45c0-93b3-bc6b543ff7a3",
+		"name": "Food Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "32953203"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/products/5",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"Mary777\",\n    \"password\": \"12345\"\n    \"unexpected_field\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/products/5",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"products",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/categories",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"Mary777\",\n    \"password\": \"12345\"\n    \"unexpected_field\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/categories",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"categories"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/user_registry",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"%:?**\",\n    \"password\": \"*:%:?*\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/user_registry",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"user_registry"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/wishlist",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 1,\n    \"amount\": 0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/wishlist",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"wishlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/wishlist",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 1,\n    \"amount\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/wishlist",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"wishlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/wishlist",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 6,\n    \"amount\": 3 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/wishlist",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"wishlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/service_ping",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 1,\n    \"amount\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/service_ping",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"service_ping"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/user_registry",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"vasya\",\n    \"password\": \"55555abc\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/user_registry",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"user_registry"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/user_registry",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"@%^&\",\n    \"password\": \"/////\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/user_registry",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"user_registry"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/user_registry",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"vasya\",\n    \"password\": \"55555abc\",\n    \"\"product_id\": 1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/user_registry",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"user_registry"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/user_registry",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"Mary777\",\n    \"password\": \"12345\"\n    \"unexpected_field\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/user_registry",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"user_registry"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/user_registry",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"Mary777\",\n    \"password\": \"12345\"\n    \"unexpected_field\": \"some value\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/user_registry",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"user_registry"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/user_registry",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"%:?**\",\n    \"password\": \"*:%:?*\"\n    \"unexpected_field\": \"some value\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/user_registry",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"user_registry"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/user_registry",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"username\": \"%:?**\",\n    \"password\": \"*:%:?*\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/user_registry",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"user_registry"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/user_logout",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 1,\n    \"amount\": 0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/user_logout",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"user_logout"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/cart_to_order",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 1,\n    \"amount\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/cart_to_order",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"cart_to_order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/wishlist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 1,\n    \"amount\": 0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/wishlist",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"wishlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/wishlist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 3,\n    \"amount\": 3 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/wishlist",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"wishlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/wishlist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 122,\n    \"amount\": 3 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/wishlist",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"wishlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/wishlist_to_cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 2,\n    \"amount\": 0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/wishlist_to_cart",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"wishlist_to_cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/wishlist_to_cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 1,\n    \"amount\": 0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/wishlist_to_cart",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"wishlist_to_cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/wishlist/1_to_cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 122,\n    \"amount\": 3 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/wishlist/1_to_cart",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"wishlist",
+						"1_to_cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/wishlist_to_cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 6,\n    \"amount\": 3 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/wishlist_to_cart",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"wishlist_to_cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/wishlist_to_cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 1,\n    \"amount\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/wishlist_to_cart",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"wishlist_to_cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/cart_to_wishlist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 1,\n    \"amount\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/cart_to_wishlist",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"cart_to_wishlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/cart_to_wishlist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 6Р,\n    \"amount\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/cart_to_wishlist",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"cart_to_wishlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 2,\n    \"amount\": 0\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/cart",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 1,\n    \"amount\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/cart",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 122H,\n    \"amount\": 1 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/cart",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 122,\n    \"amount\": 1 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/cart",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/cart",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 3,\n    \"amount\": 101\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/cart",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"cart"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/wishlist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 6Р,\n    \"amount\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/wishlist",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"wishlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/wishlist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 122,\n    \"amount\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/wishlist",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"wishlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/wishlist",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 6,\n    \"amount\": 3 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/wishlist",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"wishlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/wishlist",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 122,\n    \"amount\": 3 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/wishlist",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"wishlist"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/wishlist/1",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 1,\n    \"amount\": 1\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/wishlist/1",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"wishlist",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/wishlist/6",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 6,\n    \"amount\": 3 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/wishlist/6",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"wishlist",
+						"6"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/cart/122",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 5,\n    \"amount\": 1 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/cart/122",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"cart",
+						"122"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/cart/122H",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 5,\n    \"amount\": 1 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/cart/122H",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"cart",
+						"122H"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/cart/<122H>",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 5,\n    \"amount\": 1 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/cart/<122H>",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"cart",
+						"<122H>"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/cart/5",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 5,\n    \"amount\": 1 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/cart/5",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"cart",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/cart/<5>",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 5,\n    \"amount\": 1 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/cart/<5>",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"cart",
+						"<5>"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/cart/<product_id:5>",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 5,\n    \"amount\": 1 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/cart/<product_id:5>",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"cart",
+						"<product_id:5>"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/cart/<product_5>",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 5,\n    \"amount\": 1 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/cart/<product_5>",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"cart",
+						"<product_5>"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/cart/<product_id5>",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 5,\n    \"amount\": 1 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/cart/<product_id5>",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"cart",
+						"<product_id5>"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/cart/<product_id>",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 5,\n    \"amount\": 1 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/cart/<product_id>",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"cart",
+						"<product_id>"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://213.110.203.177:5555/cart/<product_id>",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"product_id\": 122H,\n    \"amount\": 1 \n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://213.110.203.177:5555/cart/<product_id>",
+					"protocol": "http",
+					"host": [
+						"213",
+						"110",
+						"203",
+						"177"
+					],
+					"port": "5555",
+					"path": [
+						"cart",
+						"<product_id>"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
