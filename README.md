@@ -14,5 +14,32 @@
   -  [Тест-дизайн](https://github.com/mgarkusha1/Portfolio/tree/main/Test_Design)
 - Коллекция в Postman 
   -  [Тестирование API Food Service](https://github.com/mgarkusha1/Portfolio/blob/main/Postman_Collections/Food%20Service.postman_collection.json)
-  
+## Инструменты
+</a>
+<a href="https://www.charlesproxy.com/">
+<img src="https://github.com/qajenna/qajenna/blob/main/icons/Charles.png" alt="Charles" width="50" height="50" />
+</a>
+<a href="https://www.atlassian.com/software/jira">
+<img src="https://github.com/qajenna/qajenna/blob/main/icons/Jira.png" alt="Jira" width="50" height="50" />
+</a>
+<a href="https://www.postman.com/">
+<img src="https://github.com/qajenna/qajenna/blob/main/icons/Postman.png" alt="Postman" width="50" height="50" />
+</a>
+<a href="https://www.mysql.com/">
+<img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL"  alt="MySQL" width="50" height="50" />
+</a>
+<a href="https://www.jetbrains.com/pycharm/">
+<img src="https://github.com/devicons/devicon/blob/master/icons/pycharm/pycharm-original.svg" title="PyCharm"  alt="PyCharm" width="50" height="50" />
+</a>
+<a href="https://www.selenium.dev/">
+<img src="https://github.com/devicons/devicon/blob/master/icons/selenium/selenium-original.svg" title="Selenium"  alt="Selenium" width="50" height="50" />
+</a>
+<a href="https://www.python.org/">
+<img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original.svg" title="Python"  alt="Python" width="50" height="50" />
+</a>
 
+
+## Для связи 
+[![Linkedin: mgarkusha](https://img.shields.io/badge/-LinkedIn-0e76a8?style=flat-square&logo=Linkedin&logoColor=white)](https://www.linkedin.com/in/mgarkusha/)
+[![Instagram: mgarkusha](https://img.shields.io/badge/-Instagram-e4405f?style=flat-square&logo=Instagram&logoColor=white)](https://www.instagram.com/mgarkusha/)
+[![Telegram Badge](https://img.shields.io/badge/-Telegram-0088cc?style=flat-square&logo=Telegram&logoColor=white)](https://t.me/mgarkusha1)
